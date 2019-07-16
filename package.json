@@ -1,0 +1,59 @@
+{
+  "name": "cyberpunk-arg-tracking-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "husky": "^3.0.0",
+    "lint-staged": "^9.2.0",
+    "prettier": "^1.18.2"
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "plugin:prettier/recommended"
+    ],
+    "env": {
+      "es6": true,
+      "browser": true,
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 10
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx}": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.{htm,html,css,scss,less,graphql,json,md,yaml,yml}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "checksum": "^0.1.1",
+    "dotenv": "^8.0.0",
+    "simple-git": "^1.121.0",
+    "website-scraper": "^4.0.1",
+    "website-scraper-existing-directory": "^0.1.0"
+  }
+}
