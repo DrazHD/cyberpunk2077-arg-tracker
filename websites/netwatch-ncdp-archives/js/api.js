@@ -17,7 +17,7 @@
   po.type = 'text/javascript';
   po.async = true;
   po.src =
-    'https://www.gstatic.com/recaptcha/releases/75nbHAdFrusJCwoMVGTXoHoM/recaptcha__en.js';
+    'https://www.gstatic.com/recaptcha/releases/eQmzkx3d5dtuXlLOA4pEID3I/recaptcha__en.js';
   var e = d.querySelector('script[nonce]'),
     n = e && (e['nonce'] || e.getAttribute('nonce'));
   if (n) {
