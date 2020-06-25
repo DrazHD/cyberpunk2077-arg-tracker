@@ -6,7 +6,21 @@
     <title>
       Cyberpunk 2077 — from the creators of The Witcher 3: Wild Hunt
     </title>
-    <link rel="stylesheet" href="css/home-b7b285dc2692260abb98.css" />
+    <link rel="stylesheet" href="css/home2-9d9a35fecc0068e4aba0.css" />
+    <script>
+      window.addEventListener(
+        'CookiebotOnDialogDisplay',
+        function(e) {
+          var el = document.getElementById(
+            'CybotCookiebotDialogPoweredbyImage'
+          );
+          if (el)
+            el.src =
+              'https://www.cyberpunk.net/build/images/cookies-icon-dcd2649b.png';
+        },
+        false
+      );
+    </script>
     <!-- Anti-flicker snippet (recommended)  -->
     <style>
       .async-hide {
@@ -27,7 +41,7 @@
         }, c);
         h.timeout = c;
       })(window, document.documentElement, 'async-hide', 'dataLayer', 4000, {
-        'GTM-M69BKS7': true
+        'GTM-MB323TS': true
       });
     </script>
     <!-- Google Tag Manager -->
@@ -41,7 +55,7 @@
         j.async = true;
         j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
         f.parentNode.insertBefore(j, f);
-      })(window, document, 'script', 'dataLayer', 'GTM-M69BKS7');
+      })(window, document, 'script', 'dataLayer', 'GTM-MB323TS');
     </script>
     <!-- End Google Tag Manager -->
     <meta
@@ -88,8 +102,8 @@
       property="og:image"
       content="images/social-thumbnail-en-ab9301da.jpg"
     />
-    <meta property="og:url" content="https://www.cyberpunk.net/us/en/" />
-    <link rel="canonical" href="https://www.cyberpunk.net/us/en/" />
+    <meta property="og:url" content="https://www.cyberpunk.net/tr/en/" />
+    <link rel="canonical" href="https://www.cyberpunk.net/tr/en/" />
     <link
       rel="apple-touch-icon"
       sizes="57x57"
@@ -159,11 +173,17 @@
       sizes="16x16"
       href="images/favicon-16x16.png"
     />
-    <link rel="manifest" href="/favicons/manifest.json" />
+    <link
+      rel="manifest"
+      href="https://www.cyberpunk.net/favicons/manifest.json"
+    />
     <link rel="shortcut icon" href="favicon.ico" />
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
-    <meta name="msapplication-config" content="/favicons/browserconfig.xml" />
+    <meta
+      name="msapplication-config"
+      content="https://www.cyberpunk.net/favicons/browserconfig.xml"
+    />
     <meta name="theme-color" content="#ffffff" />
     <script>
       var isMobile =
@@ -173,38 +193,11 @@
               (window.DocumentTouch && document instanceof DocumentTouch))
           : isMobile;
     </script>
-    <script>
-      function readCookie(name) {
-        var nameEQ = name + '=';
-        var ca = document.cookie.split(';');
-        for (var i = 0; i < ca.length; i++) {
-          var c = ca[i];
-          while (c.charAt(0) == ' ') c = c.substring(1, c.length);
-          if (c.indexOf(nameEQ) == 0)
-            return c.substring(nameEQ.length, c.length);
-        }
-        return null;
-      }
-
-      function createCookie(name, value, days) {
-        if (days) {
-          var date = new Date();
-          date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
-          var expires = '; expires=' + date.toGMTString();
-        } else var expires = '';
-        document.cookie = name + '=' + value + expires + '; path=/';
-      }
-
-      if (!readCookie('go_pre')) {
-        createCookie('go_pre', 1, 365);
-        location.href = '/us/en/pre-order';
-      }
-    </script>
   </head>
-  <body class="p-home has-video">
+  <body class="p-home2 has-video ext-video">
     <!-- Google Tag Manager (noscript) --><noscript
       ><iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-M69BKS7"
+        src="https://www.googletagmanager.com/ns.html?id=GTM-MB323TS"
         height="0"
         width="0"
         style="display:none;visibility:hidden"
@@ -215,8 +208,8 @@
       <div class="l-header__bg">
         <div class="l-header__video">
           <img
-            class="l-header__trailer"
-            src="images/Clean_Loop_final-2cc71aa3.jpg"
+            class="l-header__trailer l-header__trailer--twitch"
+            src="images/NCW_twitch_thumbnail_002-en-9c4a43ae.jpg"
             alt
           /><video
             data-object-fit="cover"
@@ -227,21 +220,21 @@
             playsinline="playsinline"
           >
             <source
-              src="media/Clean_Loop_final_005.mp4"
+              src="media/NCW_twitch_thumbnail_002-en.mp4"
               type="video/mp4"
             /></video
           ><a
-            href="https://www.youtube.com/watch?v=qIcTM8WXFjk"
-            class="l-header__play-button"
+            href="https://www.twitch.tv/cdprojektred"
+            class="l-header__play-button l-header__play-button--twitch"
             target="_blank"
             ><img src="images/button-play-a967908d.png" alt="Play"
           /></a>
-          <div class="l-header__video-tag">CP2077://TRAILER_E3.EXE</div>
+          <div class="l-header__video-tag">CP2077://NCW_TWITCH.EXE</div>
           <div class="l-header__beep c-beep"></div>
         </div>
         <div class="l-header__preorder">
-          <div class="l-header__release">Coming April 16th, 2020</div>
-          <a class="btn-preorder" href="/us/en/pre-order"
+          <div class="l-header__release">Coming November 19th, 2020</div>
+          <a class="btn-preorder" href="/tr/en/pre-order"
             ><span class="btn-preorder__text" data-text="pre order now_"
               >pre order now_</span
             ><span class="btn-preorder--glitch"></span
@@ -257,7 +250,7 @@
         </div>
         <div class="l-header__copyrights">
           CD PROJEKT®, Cyberpunk®, Cyberpunk 2077® are registered trademarks of
-          CD PROJEKT S.A. © 2018 CD PROJEKT S.A. All rights reserved. All other
+          CD PROJEKT S.A. © 2020 CD PROJEKT S.A. All rights reserved. All other
           copyrights and trademarks are the property of their respective owners.
         </div>
       </div>
@@ -314,7 +307,7 @@
     </header>
     <main class="l-main">
       <section class="l-main__section l-release">
-        <div>Coming April 16th, 2020</div>
+        <div>Coming November 19th, 2020</div>
         <div class="l-header__platforms">
           <img src="fonts/logo-xboxone-blue-0bfb37fe.svg" /><img
             src="fonts/logo-ps4-blue-6997aa21.svg"
@@ -499,41 +492,121 @@
         <h2>Media</h2>
         <div class="l-gallery">
           <div class="l-gallery__nav">
-            <button class="active" type="button" data-type="screenshots">
-              <span>Screenshots</span><i></i
+            <button class="active" type="button" data-type="videos">
+              <span>Videos</span><i></i
               ><span class="box__label">R23</span></button
+            ><button type="button" data-type="screenshots">
+              <span>Screenshots</span><i></i
+              ><span class="box__label">R24</span></button
             ><button type="button" data-type="wallpapers">
-              <span>Wallpapers</span><span class="box__label">R24</span></button
+              <span>Wallpapers</span><i></i
+              ><span class="box__label">R25</span></button
             ><button type="button" data-type="arts">
-              <span>Concept art</span><i></i><span class="box__label">R25</span>
+              <span>Concept art</span><i></i><span class="box__label">R26</span>
             </button>
           </div>
           <div class="l-gallery__swipers">
-            <div class="l-gallery__swiper active" data-type="screenshots">
+            <div class="l-gallery__swiper active" data-type="videos">
+              <div class="l-gallery__video">
+                <iframe
+                  src="FknHjl7eQ6o.html"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="l-gallery__video-nav">
+                <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                    <div
+                      class="swiper-slide active"
+                      data-vid="FknHjl7eQ6o"
+                      data-player="yt"
+                    >
+                      <img src="images/mqdefault.jpg" />
+                    </div>
+                    <div
+                      class="swiper-slide"
+                      data-vid="mmGRfUjmN0I"
+                      data-player="yt"
+                    >
+                      <img src="images/mqdefault_1.jpg" />
+                    </div>
+                    <div
+                      class="swiper-slide"
+                      data-vid="8X2kIfS6fb8"
+                      data-player="yt"
+                    >
+                      <img src="images/mqdefault_4.jpg" />
+                    </div>
+                    <div
+                      class="swiper-slide"
+                      data-vid="vjF9GgrY9c0"
+                      data-player="yt"
+                    >
+                      <img src="images/mqdefault_2.jpg" />
+                    </div>
+                    <div
+                      class="swiper-slide"
+                      data-vid="P99qJGrPNLs"
+                      data-player="yt"
+                    >
+                      <img src="images/mqdefault_3.jpg" />
+                    </div>
+                    <div
+                      class="swiper-slide"
+                      data-vid="aZ_ARLDWK9Y"
+                      data-player="yt"
+                    >
+                      <img src="images/mqdefault_5.jpg" />
+                    </div>
+                    <div
+                      class="swiper-slide"
+                      data-vid="mrZC1Jcv0dw"
+                      data-player="yt"
+                    >
+                      <img src="images/mqdefault_6.jpg" />
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button swiper-button-next">
+                  <i class="icon icon--next"></i>
+                </div>
+                <div class="swiper-button swiper-button-prev">
+                  <i class="icon icon--prev"></i>
+                </div>
+              </div>
+            </div>
+            <div class="l-gallery__swiper" data-type="screenshots">
               <div class="swiper-container">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <img
+                      crossorigin="anonymous"
                       src="images/Cyberpunk2077-Arriving_at_destination-en-07d50047.jpg"
                     />
                   </div>
                   <div class="swiper-slide">
                     <img
+                      crossorigin="anonymous"
                       src="images/Cyberpunk2077-Hope_you_arent_afraid_of_heights-en-8268a78a.jpg"
                     />
                   </div>
                   <div class="swiper-slide">
                     <img
+                      crossorigin="anonymous"
                       src="images/Cyberpunk2077-Lets_see_what_the_fire_regulations_have_to_say_about_this_RGB-en-ab9b0230.jpg"
                     />
                   </div>
                   <div class="swiper-slide">
                     <img
+                      crossorigin="anonymous"
                       src="images/Cyberpunk2077-Passing_the_time_RGB-en-51997457.jpg"
                     />
                   </div>
                   <div class="swiper-slide">
                     <img
+                      crossorigin="anonymous"
                       src="images/Cyberpunk2077-Closed_for_the_day-en-dc10d731.jpg"
                     />
                   </div>
@@ -550,21 +623,34 @@
               <div class="swiper-container">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                    <img src="images/Hand-en-96f92081.jpg" />
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="images/Admiring_the_view-en-7235d39a.jpg" />
-                  </div>
-                  <div class="swiper-slide">
                     <img
-                      src="images/Just_another_quiet_afternoon_in_Pacifica-en-4b47a937.jpg"
+                      crossorigin="anonymous"
+                      src="images/Metro-en-7b8fa7f7.jpg"
                     />
                   </div>
                   <div class="swiper-slide">
-                    <img src="images/Lets_go_to_the_mall-en-1579ee25.jpg" />
+                    <img
+                      crossorigin="anonymous"
+                      src="images/V-Origami-en-993a922e.jpg"
+                    />
                   </div>
                   <div class="swiper-slide">
-                    <img src="images/Punch_it-en-d9d56e38.jpg" />
+                    <img
+                      crossorigin="anonymous"
+                      src="images/V-V2-en-5315847c.jpg"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      crossorigin="anonymous"
+                      src="images/VDay-en-91fbe79d.jpg"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      crossorigin="anonymous"
+                      src="images/CNY_Artwork-en-6ac54806.jpg"
+                    />
                   </div>
                 </div>
               </div>
@@ -580,21 +666,25 @@
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <img
+                      crossorigin="anonymous"
                       src="images/Cyberpunk2077_All_ready_to_go-RGB-en-65e2ecdc.jpg"
                     />
                   </div>
                   <div class="swiper-slide">
                     <img
+                      crossorigin="anonymous"
                       src="images/Cyberpunk2077_I_make_my_own_rules-RGB-en-e7720999.jpg"
                     />
                   </div>
                   <div class="swiper-slide">
                     <img
+                      crossorigin="anonymous"
                       src="images/Cyberpunk2077_Jacked_in-RGB-en-fbdb8363.jpg"
                     />
                   </div>
                   <div class="swiper-slide">
                     <img
+                      crossorigin="anonymous"
                       src="images/Cyberpunk2077_Smoke_and_mirrors-RGB-en-3afd6639.jpg"
                     />
                   </div>
@@ -615,57 +705,65 @@
         <ul class="l-news">
           <li>
             <a
-              href="/en/news/31378/meet-the-finalists-of-cyberpunk-cosplay-contest"
+              href="/en/news/35485/cyberpunk-2077-trauma-team-comic-series"
               class="c-news c-news--cyan"
               ><div class="c-news__title">
+                <h3><span>Cyberpunk 2077: Trauma Team comic series</span></h3>
+              </div>
+              <div class="c-news__meta">
+                <span
+                  data-aos="slide-in"
+                  class="c-news__date"
+                  data-text="22.06.2020"
+                  >22.06.2020</span
+                ><button class="c-news__more-button"><span>more</span></button>
+              </div>
+              <div class="c-news__excerpt">
+                We're proud to announce Cyberpunk 2077: Trauma Team, new comic
+                series created in cooperation with Dark Horse Comics!
+              </div></a
+            >
+            <div class="l-news__corner"></div>
+          </li>
+          <li>
+            <a
+              href="/en/news/35449/cyberpunk-2077-next-gen-consoles-compatibility"
+              class="c-news"
+              ><div class="c-news__title">
                 <h3>
-                  <span>Meet the finalists of Cyberpunk Cosplay Contest!</span>
+                  <span
+                    >Cyberpunk 2077 &amp; next-gen consoles compatibility</span
+                  >
                 </h3>
               </div>
               <div class="c-news__meta">
                 <span
                   data-aos="slide-in"
                   class="c-news__date"
-                  data-text="18.12.2019"
-                  >18.12.2019</span
+                  data-text="19.06.2020"
+                  >19.06.2020</span
                 ><button class="c-news__more-button"><span>more</span></button>
-              </div>
-              <div class="c-news__excerpt">
-                All qualifiers for Cyberpunk 2077 Cosplay Contest have
-                concluded!&nbsp;
               </div></a
             >
             <div class="l-news__corner"></div>
           </li>
           <li>
             <a
-              href="/en/news/31252/so-what-does-night-city-sound-like"
+              href="/en/news/35422/important-update-about-cyberpunk-2077-release-date"
               class="c-news"
               ><div class="c-news__title">
-                <h3><span>So, what does Night City sound like?</span></h3>
+                <h3>
+                  <span
+                    >Important update about Cyberpunk 2077 release date</span
+                  >
+                </h3>
               </div>
               <div class="c-news__meta">
                 <span
                   data-aos="slide-in"
                   class="c-news__date"
-                  data-text="13.12.2019"
-                  >13.12.2019</span
-                ><button class="c-news__more-button"><span>more</span></button>
-              </div></a
-            >
-            <div class="l-news__corner"></div>
-          </li>
-          <li>
-            <a href="/en/news/31024/blackfriday-weekend-sale" class="c-news"
-              ><div class="c-news__title">
-                <h3><span>#BlackFriday Weekend Sale</span></h3>
-              </div>
-              <div class="c-news__meta">
-                <span
-                  data-aos="slide-in"
-                  class="c-news__date"
-                  data-text="29.11.2019"
-                  >29.11.2019</span
+                  data-text="18.06.2020"
+                  >18.06.2020</span
                 ><button class="c-news__more-button"><span>more</span></button>
               </div></a
             >
@@ -673,17 +771,21 @@
           </li>
           <li>
             <a
-              href="/en/news/30943/enter-cyberpunk-cosplay-contest-online"
+              href="/en/news/35311/the-finalists-of-cyber-up-your-pc-have-been-chosen"
               class="c-news"
               ><div class="c-news__title">
-                <h3><span>Enter Cyberpunk Cosplay Contest online! </span></h3>
+                <h3>
+                  <span
+                    >The finalists of ‘Cyber-up Your PC’ have been chosen!</span
+                  >
+                </h3>
               </div>
               <div class="c-news__meta">
                 <span
                   data-aos="slide-in"
                   class="c-news__date"
-                  data-text="19.11.2019"
-                  >19.11.2019</span
+                  data-text="29.05.2020"
+                  >29.05.2020</span
                 ><button class="c-news__more-button"><span>more</span></button>
               </div></a
             >
@@ -691,17 +793,22 @@
           </li>
           <li>
             <a
-              href="/en/news/30631/pre-order-your-samurai-bomber-jacket-now"
+              href="/en/news/32578/check-out-the-official-cyberpunk-2077-hardware-from-xbox-seagate-and-steelseries"
               class="c-news c-news--last"
               ><div class="c-news__title">
-                <h3><span>Pre-order your Samurai Bomber Jacket now!</span></h3>
+                <h3>
+                  <span
+                    >Check out the official Cyberpunk 2077 hardware from Xbox,
+                    Seagate, and...</span
+                  >
+                </h3>
               </div>
               <div class="c-news__meta">
                 <span
                   data-aos="slide-in"
                   class="c-news__date"
-                  data-text="24.10.2019"
-                  >24.10.2019</span
+                  data-text="20.04.2020"
+                  >20.04.2020</span
                 ><button class="c-news__more-button"><span>more</span></button>
               </div></a
             >
@@ -710,36 +817,28 @@
         </ul>
       </section>
     </main>
-    <footer class="l-footer">
+    <footer class="l-footer ">
       <div class="l-content">
         <div>
           <ul class="l-footer__top-nav wide">
             <li>
-              <a
-                data-aos="slide-in"
-                href="http://thewitcher.com"
-                target="_blank"
+              <a href="http://thewitcher.com" target="_blank"
                 ><span>thewitcher.com</span></a
               >
             </li>
             <li>
-              <a
-                data-aos="slide-in"
-                href="https://www.playgwent.com"
-                target="_blank"
+              <a href="https://www.playgwent.com" target="_blank"
                 ><span>playgwent.com</span></a
               >
             </li>
             <li></li>
             <li class="l-footer__top-nav-cond">
-              <a
-                data-aos="slide-in"
-                href="https://regulations.cdprojektred.com/en/privacy_policy"
+              <a href="https://regulations.cdprojektred.com/en/privacy_policy"
                 ><span>Terms of Use &amp; Privacy Policy</span></a
               >
             </li>
             <li>
-              <a data-aos="slide-in" href="https://en.cdprojektred.com/jobs/"
+              <a href="https://en.cdprojektred.com/jobs/"
                 ><span>Careers</span></a
               >
             </li>
@@ -806,30 +905,33 @@
           <div class="l-footer__langs-bg"></div>
           <div class="l-footer__langs">
             <div>
-              <span data-aos="slide-in"><i class="icon-world"></i>English</span>
+              <span><i class="icon-world"></i>English</span>
             </div>
             <ul>
-              <li><a href="/us/en/">English</a></li>
-              <li><a href="/us/ru/">Русский</a></li>
-              <li><a href="/us/de/">Deutsch</a></li>
-              <li><a href="/us/pl/">Polski</a></li>
-              <li><a href="/us/pt-br/">Português (BR)</a></li>
-              <li><a href="/us/fr/">Français</a></li>
-              <li><a href="/us/es/">Español</a></li>
-              <li><a href="/us/es-mx/">Español (MX)</a></li>
-              <li><a href="/us/it/">Italiano</a></li>
-              <li><a href="/us/ja/">日本語</a></li>
-              <li><a href="/us/ko/">한국어</a></li>
-              <li><a href="/us/zh-cn/">简体中文</a></li>
-              <li><a href="/us/zh-tw/">繁體中文</a></li>
+              <li><a href="/tr/en/">English</a></li>
+              <li><a href="/tr/ru/">Русский</a></li>
+              <li><a href="/tr/de/">Deutsch</a></li>
+              <li><a href="/tr/pl/">Polski</a></li>
+              <li><a href="/tr/pt-br/">Português (BR)</a></li>
+              <li><a href="/tr/fr/">Français</a></li>
+              <li><a href="/tr/es/">Español</a></li>
+              <li><a href="/tr/es-mx/">Español (MX)</a></li>
+              <li><a href="/tr/it/">Italiano</a></li>
+              <li><a href="/tr/ja/">日本語</a></li>
+              <li><a href="/tr/ko/">한국어</a></li>
+              <li><a href="/tr/zh-cn/">简体中文</a></li>
+              <li><a href="/tr/zh-tw/">繁體中文</a></li>
             </ul>
           </div>
         </div>
         <div>
+          <a class="l-footer__cookie-declaration" href="#"
+            ><span>Cookie Declaration</span></a
+          >
           <div class="l-footer__copyright">
-            <p data-aos="slide-in">
+            <p>
               CD PROJEKT®, Cyberpunk®, Cyberpunk 2077® are registered trademarks
-              of CD PROJEKT S.A. © 2018 CD PROJEKT S.A. All rights reserved. All
+              of CD PROJEKT S.A. © 2020 CD PROJEKT S.A. All rights reserved. All
               other copyrights and trademarks are the property of their
               respective owners.
             </p>
@@ -838,393 +940,441 @@
         <div>
           <ul class="l-footer__bottom-nav wide">
             <li>
-              <a
-                data-aos="slide-in"
-                href="http://thewitcher.com"
-                target="_blank"
+              <a href="http://thewitcher.com" target="_blank"
                 ><img src="images/witcher-11cf77d0.png" alt="Witcher" /><span
                   >thewitcher.com</span
                 ></a
               >
             </li>
             <li>
-              <a
-                data-aos="slide-in"
-                href="https://www.playgwent.com"
-                target="_blank"
+              <a href="https://www.playgwent.com" target="_blank"
                 ><img src="images/gwent-75ad63de.png" alt="Gwent" /><span
                   >playgwent.com</span
                 ></a
               >
             </li>
             <li>
-              <a
-                data-aos="slide-in"
-                href="https://eu.store.cdprojektred.com/"
-                target="_blank"
+              <a href="https://eu.gear.cdprojektred.com/" target="_blank"
                 ><img
                   src="images/footer-store-horizontal-d5fafb62.png"
                   alt="Store"
-                /><span>eu.store.cdprojektred.com</span></a
+                /><span>eu.gear.cdprojektred.com</span></a
               >
             </li>
           </ul>
         </div>
         <div>
-          <ul class="l-footer__logos">
+          <ul class="l-footer__logos l-footer__logos--wide  ">
             <li class="l-footer__logos-link">
-              <a
-                data-aos="slide-in"
-                href="http://thewitcher.com"
-                target="_blank"
+              <a href="http://thewitcher.com" target="_blank"
                 ><span>thewitcher.com</span></a
               >
             </li>
             <li class="l-footer__logos-link">
-              <a
-                data-aos="slide-in"
-                href="https://www.playgwent.com"
-                target="_blank"
+              <a href="https://www.playgwent.com" target="_blank"
                 ><span>playgwent.com</span></a
               >
             </li>
             <li class="l-footer__logos-link">
-              <a
-                data-aos="slide-in"
-                href="https://eu.store.cdprojektred.com/"
-                target="_blank"
-                ><span>eu.store.cdprojektred.com</span></a
+              <a href="https://eu.gear.cdprojektred.com/" target="_blank"
+                ><span>eu.gear.cdprojektred.com</span></a
               >
             </li>
             <li>
               <a href="https://cdprojektred.com" target="_blank"
                 ><img
-                  data-aos="slide-in"
                   src="fonts/CDProjektRed-White-ddc054ff.svg"
                   alt="CD Projekt Red"
               /></a>
             </li>
-            <li class="l-footer__ratings">
-              <div class="l-footer__rating l-footer__rating--rating  US"></div>
+            <li class="l-footer__ratings ">
+              <a
+                href="http://www.pegi.info"
+                class="l-footer__rating l-footer__rating--pegi"
+                target="_blank"
+              ></a>
+              <div
+                class="l-footer__rating l-footer__rating--pegi l-footer__rating--pegi-ln"
+              ></div>
+              <div
+                class="l-footer__rating l-footer__rating--pegi l-footer__rating--pegi-sex"
+              ></div>
+              <div
+                class="l-footer__rating l-footer__rating--pegi l-footer__rating--pegi-violence"
+              ></div>
             </li>
           </ul>
         </div>
       </div>
     </footer>
-    <div id="cookies" class="c-cookies">
-      <p class="c-cookies__p">
-        Not like it changes anything, but we are obligated to inform you that we
-        are using cookies well, we just did.<br /><br /><a
-          href="https://regulations.cdprojektred.com/en/cookie_policy/"
-          target="_blank"
-          >More info on cookies</a
-        >
-      </p>
-      <a class="c-cookies__close" href>I don’t want to see this banner again</a>
-    </div>
     <script>
       var CDPRED = CDPRED || {};
-      CDPRED.preorderUrl = '/us/en/pre-order';
+      CDPRED.preorderUrl = '/tr/en/pre-order';
+      CDPRED.ageGate = false;
 
       CDPRED.gallery = {
         tDownload4k: 'Download in 4K',
         tDownload: 'DOWNLOAD',
         tShare: 'Share:',
-        desktopRes: ['1600x900', '1900x1200', '1920x1080', '2560x1600']
+        desktopRes: [
+          ['1600x900', '1900x1200', '1920x1080', '2560x1600'],
+          ['1600x900', '1900x1200', '1920x1080', '2560x1600', '3440x1440'],
+          [
+            '1600x900',
+            '1900x1200',
+            '1920x1080',
+            '2560x1600',
+            '3440x1440',
+            '3840x2160'
+          ]
+        ]
       };
       CDPRED.screenshots = {
         desktop: [
-          '/build/images/media/screenshots/Cyberpunk2077-Arriving_at_destination-en-07d50047.jpg',
-          '/build/images/media/screenshots/Cyberpunk2077-Hope_you_arent_afraid_of_heights-en-8268a78a.jpg',
-          '/build/images/media/screenshots/Cyberpunk2077-Lets_see_what_the_fire_regulations_have_to_say_about_this_RGB-en-ab9b0230.jpg',
-          '/build/images/media/screenshots/Cyberpunk2077-Passing_the_time_RGB-en-51997457.jpg',
-          '/build/images/media/screenshots/Cyberpunk2077-Closed_for_the_day-en-dc10d731.jpg',
-          '/build/images/media/screenshots/Cyberpunk2077-Dead_end-en-567d9f79.jpg',
-          '/build/images/media/screenshots/Cyberpunk2077-Lets_go_to_the_mall-en-3614f844.jpg',
-          '/build/images/media/screenshots/Cyberpunk2077-Punch_it-en-5750cd76.jpg',
-          '/build/images/media/screenshots/Cyberpunk2077-Really_wish_I_brought_my_shades-en-1f19318a.jpg',
-          '/build/images/media/screenshots/Cyberpunk2077-Sweet_ride-en-64a28b29.jpg',
-          '/build/images/media/screenshots/Cyberpunk2077-Float_like_a_butterfly_RGB-en-aca09676.jpg',
-          '/build/images/media/screenshots/Cyberpunk2077-Missed_me_missed_me_RGB-en-5ce66801.jpg',
-          '/build/images/media/screenshots/Cyberpunk2077-Should_have_taken_the_elevator_RGB-en-d38625b9.jpg',
-          '/build/images/media/screenshots/Cyberpunk2077_Your_move_RGB-en-d2b18187.jpg',
-          '/build/images/media/screenshots/Cyberpunk2077-Admiring_the_view_RGB-en-c918933d.jpg',
-          '/build/images/media/screenshots/Cyberpunk2077-Just_another_quiet_afternoon_in_Pacifica_RGB-en-b3adcfd1.jpg',
-          '/build/images/media/screenshots/Cyberpunk2077-Nice_to_meet_you_too_RGB-en-13e9d94d.jpg',
-          '/build/images/media/screenshots/Cyberpunk2077-Theres_someone_behind_you_RGB-en-4e99b8d9.jpg',
-          '/build/images/media/screenshots/Cyberpunk2077-Those_are_some_mighty_big_guns_RGB-en-f0ce53b6.jpg',
-          '/build/images/media/screenshots/Cyberpunk2077-You_have_1_new_message_RGB-en-0a0d2951.jpg',
-          '/build/images/media/screenshots/Cyberpunk2077-Art_is_all_around-RGB-en-6b338391.jpg',
-          '/build/images/media/screenshots/Cyberpunk2077-Looks_like_someone_got_in_trouble-RGB-en-8a86ff3c.jpg',
-          '/build/images/media/screenshots/Cyberpunk2077-Nice_coat-RGB-en-45e09fc8.jpg',
-          '/build/images/media/screenshots/Cyberpunk2077-Ready_to_dive_back_in-RGB-en-a82b3b41.jpg',
-          '/build/images/media/screenshots/Cyberpunk2077-Really_love_what_you_did_with_the_place-RGB-en-2b9b9b68.jpg',
-          '/build/images/media/screenshots/Cyberpunk2077-A_beautiful_beast-RGB-en-2ffd354c.jpg',
-          '/build/images/media/screenshots/Cyberpunk2077-Just_in_time_for_dinner-RGB-en-6efe003c.jpg',
-          '/build/images/media/screenshots/Cyberpunk2077-Running_the_show-RGB-en-17c20b62.jpg',
-          '/build/images/media/screenshots/Cyberpunk2077-The_man_with_the_silver_hand-RGB-en-2d166143.jpg',
-          '/build/images/media/screenshots/Cyberpunk2077-The_million_euro_dollar_question-RGB-en-b691409f.jpg',
-          '/build/images/media/screenshots/Cyberpunk2077-Welcome_to_Paradise-RGB-en-aec8faf3.jpg',
-          '/build/images/media/screenshots/screen-trauma-team-en-a3664525.jpg',
-          '/build/images/media/screenshots/screen-ambushed-en-187b9a37.jpg',
-          '/build/images/media/screenshots/screen-beautiful-and-deadly-en-a0890ce4.jpg',
-          '/build/images/media/screenshots/screen-Cyberpunk2077-Outnumbered_But_Not_Outgunned-RGB-en-1ee5ad03.jpg',
-          '/build/images/media/screenshots/screen-Cyberpunk2077-Shoot_Through_Walls_V-RGB-en-189b69ed.jpg',
-          '/build/images/media/screenshots/screen-different-faces-of-violence-en-52c7f636.jpg',
-          '/build/images/media/screenshots/screen-provoked-en-7c3d05db.jpg',
-          '/build/images/media/screenshots/screen-a-mercenary-on-the-rise-en-a3550f80.jpg',
-          '/build/images/media/screenshots/screen-ready-to-get-back-to-the-big-leagues-en-c3a7a1f9.jpg',
-          '/build/images/media/screenshots/screen-expendable-en-19d0c29e.jpg',
-          '/build/images/media/screenshots/screen-high-speed-high-stakes-en-31c06887.jpg',
-          '/build/images/media/screenshots/screen-its-a-deal-en-c4926f98.jpg',
-          '/build/images/media/screenshots/screen-just-around-the-corner-en-9ac62235.jpg',
-          '/build/images/media/screenshots/screen-shock-to-save-shoot-to-kill-en-29972e56.jpg',
-          '/build/images/media/screenshots/screen-the-hottest-tech-in-town-en-db4fbb75.jpg',
-          '/build/images/media/screenshots/screen-gotta-know-where-to-look-en-a991db54.jpg',
-          '/build/images/media/screenshots/screen-Cyberpunk2077-Your_Chakra-s_Off_Babe-RGB-en-a40f4526.jpg',
-          '/build/images/media/screenshots/screen-ripperdoc-clinic-en-686daf8a.jpg',
-          '/build/images/media/screenshots/screen-Cyberpunk2077-Any_Last_Words-RGB-en-b0325482.jpg'
+          'https://www.cyberpunk.net/build/images/media/screenshots/Cyberpunk2077-Arriving_at_destination-en-07d50047.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/Cyberpunk2077-Hope_you_arent_afraid_of_heights-en-8268a78a.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/Cyberpunk2077-Lets_see_what_the_fire_regulations_have_to_say_about_this_RGB-en-ab9b0230.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/Cyberpunk2077-Passing_the_time_RGB-en-51997457.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/Cyberpunk2077-Closed_for_the_day-en-dc10d731.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/Cyberpunk2077-Dead_end-en-567d9f79.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/Cyberpunk2077-Lets_go_to_the_mall-en-3614f844.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/Cyberpunk2077-Punch_it-en-5750cd76.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/Cyberpunk2077-Really_wish_I_brought_my_shades-en-1f19318a.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/Cyberpunk2077-Sweet_ride-en-64a28b29.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/Cyberpunk2077-Float_like_a_butterfly_RGB-en-aca09676.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/Cyberpunk2077-Missed_me_missed_me_RGB-en-5ce66801.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/Cyberpunk2077-Should_have_taken_the_elevator_RGB-en-d38625b9.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/Cyberpunk2077_Your_move_RGB-en-d2b18187.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/Cyberpunk2077-Admiring_the_view_RGB-en-c918933d.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/Cyberpunk2077-Just_another_quiet_afternoon_in_Pacifica_RGB-en-b3adcfd1.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/Cyberpunk2077-Nice_to_meet_you_too_RGB-en-13e9d94d.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/Cyberpunk2077-Theres_someone_behind_you_RGB-en-4e99b8d9.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/Cyberpunk2077-Those_are_some_mighty_big_guns_RGB-en-f0ce53b6.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/Cyberpunk2077-You_have_1_new_message_RGB-en-0a0d2951.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/Cyberpunk2077-Art_is_all_around-RGB-en-6b338391.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/Cyberpunk2077-Looks_like_someone_got_in_trouble-RGB-en-8a86ff3c.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/Cyberpunk2077-Nice_coat-RGB-en-45e09fc8.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/Cyberpunk2077-Ready_to_dive_back_in-RGB-en-a82b3b41.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/Cyberpunk2077-Really_love_what_you_did_with_the_place-RGB-en-2b9b9b68.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/Cyberpunk2077-A_beautiful_beast-RGB-en-2ffd354c.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/Cyberpunk2077-Just_in_time_for_dinner-RGB-en-6efe003c.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/Cyberpunk2077-Running_the_show-RGB-en-17c20b62.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/Cyberpunk2077-The_man_with_the_silver_hand-RGB-en-2d166143.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/Cyberpunk2077-The_million_euro_dollar_question-RGB-en-b691409f.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/Cyberpunk2077-Welcome_to_Paradise-RGB-en-aec8faf3.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/screen-trauma-team-en-a3664525.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/screen-ambushed-en-187b9a37.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/screen-beautiful-and-deadly-en-a0890ce4.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/screen-Cyberpunk2077-Outnumbered_But_Not_Outgunned-RGB-en-1ee5ad03.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/screen-Cyberpunk2077-Shoot_Through_Walls_V-RGB-en-189b69ed.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/screen-different-faces-of-violence-en-52c7f636.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/screen-provoked-en-7c3d05db.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/screen-a-mercenary-on-the-rise-en-a3550f80.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/screen-ready-to-get-back-to-the-big-leagues-en-c3a7a1f9.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/screen-expendable-en-19d0c29e.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/screen-high-speed-high-stakes-en-31c06887.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/screen-its-a-deal-en-c4926f98.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/screen-just-around-the-corner-en-9ac62235.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/screen-shock-to-save-shoot-to-kill-en-29972e56.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/screen-the-hottest-tech-in-town-en-db4fbb75.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/screen-gotta-know-where-to-look-en-a991db54.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/screen-Cyberpunk2077-Your_Chakra-s_Off_Babe-RGB-en-a40f4526.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/screen-ripperdoc-clinic-en-686daf8a.jpg',
+          'https://www.cyberpunk.net/build/images/media/screenshots/screen-Cyberpunk2077-Any_Last_Words-RGB-en-b0325482.jpg'
         ],
         mobile: [
-          '/build/images/gallery/mobile/Cyberpunk2077-Arriving_at_destination-3a88012c.jpg',
-          '/build/images/gallery/mobile/Cyberpunk2077-Hope_you_arent_afraid_of_heights-0928fadc.jpg',
-          '/build/images/gallery/mobile/Cyberpunk2077-Lets_see_what_the_fire_regulations_have_to_say_about_this_RGB-9f90354d.jpg',
-          '/build/images/gallery/mobile/Cyberpunk2077-Passing_the_time_RGB-426c8e7b.jpg',
-          '/build/images/gallery/mobile/Cyberpunk2077-Closed_for_the_day-644f9a1d.jpg',
-          '/build/images/gallery/mobile/Cyberpunk2077-Dead_end-d33fd99d.jpg',
-          '/build/images/gallery/mobile/Cyberpunk2077-Lets_go_to_the_mall-4c0b00cd.jpg',
-          '/build/images/gallery/mobile/Cyberpunk2077-Punch_it-4afc02a1.jpg',
-          '/build/images/gallery/mobile/Cyberpunk2077-Really_wish_I_brought_my_shades-49d9c626.jpg',
-          '/build/images/gallery/mobile/Cyberpunk2077-Sweet_ride-e9b339d3.jpg',
-          '/build/images/gallery/mobile/Cyberpunk2077-Float_like_a_butterfly_RGB-67c5b38b.jpg',
-          '/build/images/gallery/mobile/Cyberpunk2077-Missed_me_missed_me_RGB-ceff8d57.jpg',
-          '/build/images/gallery/mobile/Cyberpunk2077-Should_have_taken_the_elevator_RGB-d140befc.jpg',
-          '/build/images/gallery/mobile/Cyberpunk2077_Your_move_RGB-d50b5954.jpg',
-          '/build/images/gallery/mobile/Cyberpunk2077-Admiring_the_view_RGB-c14c17d9.jpg',
-          '/build/images/gallery/mobile/Cyberpunk2077-Just_another_quiet_afternoon_in_Pacifica_RGB-6bc0eb07.jpg',
-          '/build/images/gallery/mobile/Cyberpunk2077-Nice_to_meet_you_too_RGB-5520509b.jpg',
-          '/build/images/gallery/mobile/Cyberpunk2077-Theres_someone_behind_you_RGB-ec8e0eb7.jpg',
-          '/build/images/gallery/mobile/Cyberpunk2077-Those_are_some_mighty_big_guns_RGB-79ceb4c0.jpg',
-          '/build/images/gallery/mobile/Cyberpunk2077-You_have_1_new_message_RGB-fb121a14.jpg',
-          '/build/images/gallery/mobile/Cyberpunk2077-Art_is_all_around-RGB-6b9cefd6.jpg',
-          '/build/images/gallery/mobile/Cyberpunk2077-Looks_like_someone_got_in_trouble-RGB-103bcfe2.jpg',
-          '/build/images/gallery/mobile/Cyberpunk2077-Nice_coat-RGB-4614c4c4.jpg',
-          '/build/images/gallery/mobile/Cyberpunk2077-Ready_to_dive_back_in-RGB-027178c2.jpg',
-          '/build/images/gallery/mobile/Cyberpunk2077-Really_love_what_you_did_with_the_place-RGB-5053cbda.jpg',
-          '/build/images/gallery/mobile/Cyberpunk2077-A_beautiful_beast-RGB-1cd398ba.jpg',
-          '/build/images/gallery/mobile/Cyberpunk2077-Just_in_time_for_dinner-RGB-d631d4e5.jpg',
-          '/build/images/gallery/mobile/Cyberpunk2077-Running_the_show-RGB-35e6f131.jpg',
-          '/build/images/gallery/mobile/Cyberpunk2077-The_man_with_the_silver_hand-RGB-5f3e59e5.jpg',
-          '/build/images/gallery/mobile/Cyberpunk2077-The_million_euro_dollar_question-RGB-f7f5b57b.jpg',
-          '/build/images/gallery/mobile/Cyberpunk2077-Welcome_to_Paradise-RGB-b5214933.jpg',
-          '/build/images/gallery/mobile/screen-trauma-team-77458767.jpg',
-          '/build/images/gallery/mobile/screen-ambushed-de7b8328.jpg',
-          '/build/images/gallery/mobile/screen-beautiful-and-deadly-430bdec4.jpg',
-          '/build/images/gallery/mobile/screen-Cyberpunk2077-Outnumbered_But_Not_Outgunned-RGB-41a9be00.jpg',
-          '/build/images/gallery/mobile/screen-Cyberpunk2077-Shoot_Through_Walls_V-RGB-4c1e21bf.jpg',
-          '/build/images/gallery/mobile/screen-different-faces-of-violence-eadbb857.jpg',
-          '/build/images/gallery/mobile/screen-provoked-8a4d3285.jpg',
-          '/build/images/gallery/mobile/screen-a-mercenary-on-the-rise-99ae875c.jpg',
-          '/build/images/gallery/mobile/screen-ready-to-get-back-to-the-big-leagues-e945ea7b.jpg',
-          '/build/images/gallery/mobile/screen-expendable-e4200aa0.jpg',
-          '/build/images/gallery/mobile/screen-high-speed-high-stakes-2d92acdf.jpg',
-          '/build/images/gallery/mobile/screen-its-a-deal-571ea31d.jpg',
-          '/build/images/gallery/mobile/screen-just-around-the-corner-449f2db0.jpg',
-          '/build/images/gallery/mobile/screen-shock-to-save-shoot-to-kill-56e4c97d.jpg',
-          '/build/images/gallery/mobile/screen-the-hottest-tech-in-town-21ade667.jpg',
-          '/build/images/gallery/mobile/screen-gotta-know-where-to-look-92a1e656.jpg',
-          '/build/images/gallery/mobile/screen-Cyberpunk2077-Your_Chakra-s_Off_Babe-RGB-ff92a32d.jpg',
-          '/build/images/gallery/mobile/screen-ripperdoc-clinic-3b68f51d.jpg',
-          '/build/images/gallery/mobile/screen-Cyberpunk2077-Any_Last_Words-RGB-431e66b9.jpg'
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077-Arriving_at_destination-3a88012c.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077-Hope_you_arent_afraid_of_heights-0928fadc.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077-Lets_see_what_the_fire_regulations_have_to_say_about_this_RGB-9f90354d.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077-Passing_the_time_RGB-426c8e7b.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077-Closed_for_the_day-644f9a1d.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077-Dead_end-d33fd99d.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077-Lets_go_to_the_mall-4c0b00cd.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077-Punch_it-4afc02a1.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077-Really_wish_I_brought_my_shades-49d9c626.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077-Sweet_ride-e9b339d3.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077-Float_like_a_butterfly_RGB-67c5b38b.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077-Missed_me_missed_me_RGB-ceff8d57.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077-Should_have_taken_the_elevator_RGB-d140befc.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077_Your_move_RGB-d50b5954.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077-Admiring_the_view_RGB-c14c17d9.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077-Just_another_quiet_afternoon_in_Pacifica_RGB-6bc0eb07.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077-Nice_to_meet_you_too_RGB-5520509b.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077-Theres_someone_behind_you_RGB-ec8e0eb7.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077-Those_are_some_mighty_big_guns_RGB-79ceb4c0.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077-You_have_1_new_message_RGB-fb121a14.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077-Art_is_all_around-RGB-6b9cefd6.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077-Looks_like_someone_got_in_trouble-RGB-103bcfe2.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077-Nice_coat-RGB-4614c4c4.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077-Ready_to_dive_back_in-RGB-027178c2.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077-Really_love_what_you_did_with_the_place-RGB-5053cbda.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077-A_beautiful_beast-RGB-1cd398ba.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077-Just_in_time_for_dinner-RGB-d631d4e5.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077-Running_the_show-RGB-35e6f131.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077-The_man_with_the_silver_hand-RGB-5f3e59e5.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077-The_million_euro_dollar_question-RGB-f7f5b57b.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077-Welcome_to_Paradise-RGB-b5214933.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/screen-trauma-team-77458767.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/screen-ambushed-de7b8328.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/screen-beautiful-and-deadly-430bdec4.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/screen-Cyberpunk2077-Outnumbered_But_Not_Outgunned-RGB-41a9be00.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/screen-Cyberpunk2077-Shoot_Through_Walls_V-RGB-4c1e21bf.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/screen-different-faces-of-violence-eadbb857.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/screen-provoked-8a4d3285.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/screen-a-mercenary-on-the-rise-99ae875c.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/screen-ready-to-get-back-to-the-big-leagues-e945ea7b.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/screen-expendable-e4200aa0.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/screen-high-speed-high-stakes-2d92acdf.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/screen-its-a-deal-571ea31d.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/screen-just-around-the-corner-449f2db0.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/screen-shock-to-save-shoot-to-kill-56e4c97d.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/screen-the-hottest-tech-in-town-21ade667.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/screen-gotta-know-where-to-look-92a1e656.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/screen-Cyberpunk2077-Your_Chakra-s_Off_Babe-RGB-ff92a32d.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/screen-ripperdoc-clinic-3b68f51d.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/screen-Cyberpunk2077-Any_Last_Words-RGB-431e66b9.jpg'
         ],
         '1080p': [
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077-Arriving_at_destination-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077-Hope_you_arent_afraid_of_heights-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077-Lets_see_what_the_fire_regulations_have_to_say_about_this_RGB-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077-Passing_the_time_RGB-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077-Closed_for_the_day-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077-Dead_end-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077-Lets_go_to_the_mall-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077-Punch_it-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077-Really_wish_I_brought_my_shades-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077-Sweet_ride-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077-Float_like_a_butterfly_RGB-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077-Missed_me_missed_me_RGB-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077-Should_have_taken_the_elevator_RGB-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077_Your_move_RGB-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077-Admiring_the_view_RGB-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077-Just_another_quiet_afternoon_in_Pacifica_RGB-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077-Nice_to_meet_you_too_RGB-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077-Theres_someone_behind_you_RGB-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077-Those_are_some_mighty_big_guns_RGB-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077-You_have_1_new_message_RGB-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077-Art_is_all_around-RGB-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077-Looks_like_someone_got_in_trouble-RGB-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077-Nice_coat-RGB-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077-Ready_to_dive_back_in-RGB-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077-Really_love_what_you_did_with_the_place-RGB-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077-A_beautiful_beast-RGB-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077-Just_in_time_for_dinner-RGB-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077-Running_the_show-RGB-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077-The_man_with_the_silver_hand-RGB-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077-The_million_euro_dollar_question-RGB-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077-Welcome_to_Paradise-RGB-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/screen-trauma-team-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/screen-ambushed-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/screen-beautiful-and-deadly-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/screen-Cyberpunk2077-Outnumbered_But_Not_Outgunned-RGB-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/screen-Cyberpunk2077-Shoot_Through_Walls_V-RGB-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/screen-different-faces-of-violence-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/screen-provoked-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/screen-a-mercenary-on-the-rise-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/screen-ready-to-get-back-to-the-big-leagues-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/screen-expendable-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/screen-high-speed-high-stakes-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/screen-its-a-deal-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/screen-just-around-the-corner-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/screen-shock-to-save-shoot-to-kill-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/screen-the-hottest-tech-in-town-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/screen-gotta-know-where-to-look-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/screen-Cyberpunk2077-Your_Chakra-s_Off_Babe-RGB-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/screen-ripperdoc-clinic-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/screen-Cyberpunk2077-Any_Last_Words-RGB-en.jpg'
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077-Arriving_at_destination-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077-Hope_you_arent_afraid_of_heights-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077-Lets_see_what_the_fire_regulations_have_to_say_about_this_RGB-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077-Passing_the_time_RGB-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077-Closed_for_the_day-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077-Dead_end-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077-Lets_go_to_the_mall-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077-Punch_it-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077-Really_wish_I_brought_my_shades-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077-Sweet_ride-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077-Float_like_a_butterfly_RGB-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077-Missed_me_missed_me_RGB-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077-Should_have_taken_the_elevator_RGB-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077_Your_move_RGB-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077-Admiring_the_view_RGB-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077-Just_another_quiet_afternoon_in_Pacifica_RGB-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077-Nice_to_meet_you_too_RGB-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077-Theres_someone_behind_you_RGB-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077-Those_are_some_mighty_big_guns_RGB-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077-You_have_1_new_message_RGB-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077-Art_is_all_around-RGB-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077-Looks_like_someone_got_in_trouble-RGB-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077-Nice_coat-RGB-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077-Ready_to_dive_back_in-RGB-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077-Really_love_what_you_did_with_the_place-RGB-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077-A_beautiful_beast-RGB-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077-Just_in_time_for_dinner-RGB-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077-Running_the_show-RGB-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077-The_man_with_the_silver_hand-RGB-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077-The_million_euro_dollar_question-RGB-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077-Welcome_to_Paradise-RGB-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/screen-trauma-team-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/screen-ambushed-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/screen-beautiful-and-deadly-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/screen-Cyberpunk2077-Outnumbered_But_Not_Outgunned-RGB-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/screen-Cyberpunk2077-Shoot_Through_Walls_V-RGB-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/screen-different-faces-of-violence-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/screen-provoked-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/screen-a-mercenary-on-the-rise-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/screen-ready-to-get-back-to-the-big-leagues-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/screen-expendable-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/screen-high-speed-high-stakes-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/screen-its-a-deal-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/screen-just-around-the-corner-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/screen-shock-to-save-shoot-to-kill-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/screen-the-hottest-tech-in-town-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/screen-gotta-know-where-to-look-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/screen-Cyberpunk2077-Your_Chakra-s_Off_Babe-RGB-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/screen-ripperdoc-clinic-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/screen-Cyberpunk2077-Any_Last_Words-RGB-en.jpg'
         ]
       };
       CDPRED.wallpapers = {
         desktop: [
-          '/build/images/media/wallpapers/Hand-en-96f92081.jpg',
-          '/build/images/media/wallpapers/Admiring_the_view-en-7235d39a.jpg',
-          '/build/images/media/wallpapers/Just_another_quiet_afternoon_in_Pacifica-en-4b47a937.jpg',
-          '/build/images/media/wallpapers/Lets_go_to_the_mall-en-1579ee25.jpg',
-          '/build/images/media/wallpapers/Punch_it-en-d9d56e38.jpg',
-          '/build/images/media/wallpapers/Sweet_ride-en-38d92a26.jpg',
-          '/build/images/media/wallpapers/Your_move-en-39e48009.jpg',
-          '/build/images/media/wallpapers/A_beautiful_beast-en-678aa2d9.jpg',
-          '/build/images/media/wallpapers/Now_arriving_at_destination-en-bb44ff41.jpg',
-          '/build/images/media/wallpapers/Running_the_show-en-f1df893b.jpg',
-          '/build/images/media/wallpapers/The_man_with_the_silver_hand-en-4c6baf7c.jpg',
-          '/build/images/media/wallpapers/You_look_like_youve_seen_a_ghost-en-de96e62c.jpg',
-          '/build/images/media/wallpapers/Youre_mine-en-d061ed49.jpg',
-          '/build/images/media/wallpapers/CP77-KV-en-4d31f926.jpg',
-          '/build/images/media/wallpapers/v-logotype-en-d08705c2.jpg',
-          '/build/images/media/wallpapers/CP_Valentines_Day-en-57477223.jpg',
-          '/build/images/media/wallpapers/Outnumbered_But_Not_Outgunned-en-13e8e0a3.jpg',
-          '/build/images/media/wallpapers/Shoot_Through_Walls_V-en-7bcfc893.jpg',
-          '/build/images/media/wallpapers/The_Chakras_Off_Babe-en-a322d005.jpg',
-          '/build/images/media/wallpapers/Any_Last_Words-en-adb5ba5f.jpg',
-          '/build/images/media/wallpapers/trailer-logotype-en-d274884f.jpg',
-          '/build/images/media/wallpapers/A-mercenary-on-the-rise-en-b5afb0e3.jpg',
-          '/build/images/media/wallpapers/Braindance-experience-en-32a5e561.jpg',
-          '/build/images/media/wallpapers/Its-a-deal-en-e09e01ff.jpg',
-          '/build/images/media/wallpapers/Just-around-the-corner-en-c958c51e.jpg',
-          '/build/images/media/wallpapers/Trauma-Team-en-4b2e9a18.jpg'
-        ],
-        mobile: [
-          '/build/images/wallpapers/mobile/Hand-a585cef5.jpg',
-          '/build/images/wallpapers/mobile/Admiring_the_view-80c0ab4e.jpg',
-          '/build/images/wallpapers/mobile/Just_another_quiet_afternoon_in_Pacifica-f2919e83.jpg',
-          '/build/images/wallpapers/mobile/Lets_go_to_the_mall-c4bb5d56.jpg',
-          '/build/images/wallpapers/mobile/Punch_it-b69b18be.jpg',
-          '/build/images/wallpapers/mobile/Sweet_ride-e8391ccd.jpg',
-          '/build/images/wallpapers/mobile/Your_move-517a36f2.jpg',
-          '/build/images/wallpapers/mobile/A_beautiful_beast-en-a33535c7.jpg',
-          '/build/images/wallpapers/mobile/Now_arriving_at_destination-en-7079e8d1.jpg',
-          '/build/images/wallpapers/mobile/Running_the_show-en-56e8f076.jpg',
-          '/build/images/wallpapers/mobile/The_man_with_the_silver_hand-en-8605df6f.jpg',
-          '/build/images/wallpapers/mobile/You_look_like_youve_seen_a_ghost-en-14acd005.jpg',
-          '/build/images/wallpapers/mobile/Youre_mine-en-fb57672d.jpg',
-          '/build/images/wallpapers/mobile/CP77-KV-en-0500c601.jpg',
-          '/build/images/wallpapers/mobile/Ambushed-de7b8328.jpg',
-          '/build/images/wallpapers/mobile/A-mercenary-on-the-rise-99ae875c.jpg',
-          '/build/images/wallpapers/mobile/Beautiful-and-deadly-430bdec4.jpg',
-          '/build/images/wallpapers/mobile/Big-Man-With-a-Big-Gun-17955684.jpg',
-          '/build/images/wallpapers/mobile/Expendable-78962a26.jpg',
-          '/build/images/wallpapers/mobile/Its-a-deal-7d5371da.jpg',
-          '/build/images/wallpapers/mobile/Its-a-deal-2-fca884c5.jpg',
-          '/build/images/wallpapers/mobile/Just-around-the-corner-449f2db0.jpg',
-          '/build/images/wallpapers/mobile/Provoked-8a4d3285.jpg',
-          '/build/images/wallpapers/mobile/Trauma-Team-77458767.jpg',
-          '/build/images/wallpapers/mobile/You-Better-Not-Interfere-51d8eccf.jpg'
+          'https://www.cyberpunk.net/build/images/media/wallpapers/Metro-en-7b8fa7f7.jpg',
+          'https://www.cyberpunk.net/build/images/media/wallpapers/V-Origami-en-993a922e.jpg',
+          'https://www.cyberpunk.net/build/images/media/wallpapers/V-V2-en-5315847c.jpg',
+          'https://www.cyberpunk.net/build/images/media/wallpapers/VDay-en-91fbe79d.jpg',
+          'https://www.cyberpunk.net/build/images/media/wallpapers/CNY_Artwork-en-6ac54806.jpg',
+          'https://www.cyberpunk.net/build/images/media/wallpapers/Hand-en-96f92081.jpg',
+          'https://www.cyberpunk.net/build/images/media/wallpapers/Admiring_the_view-en-7235d39a.jpg',
+          'https://www.cyberpunk.net/build/images/media/wallpapers/Just_another_quiet_afternoon_in_Pacifica-en-4b47a937.jpg',
+          'https://www.cyberpunk.net/build/images/media/wallpapers/Lets_go_to_the_mall-en-1579ee25.jpg',
+          'https://www.cyberpunk.net/build/images/media/wallpapers/Punch_it-en-d9d56e38.jpg',
+          'https://www.cyberpunk.net/build/images/media/wallpapers/Sweet_ride-en-38d92a26.jpg',
+          'https://www.cyberpunk.net/build/images/media/wallpapers/Your_move-en-39e48009.jpg',
+          'https://www.cyberpunk.net/build/images/media/wallpapers/A_beautiful_beast-en-678aa2d9.jpg',
+          'https://www.cyberpunk.net/build/images/media/wallpapers/Now_arriving_at_destination-en-bb44ff41.jpg',
+          'https://www.cyberpunk.net/build/images/media/wallpapers/Running_the_show-en-f1df893b.jpg',
+          'https://www.cyberpunk.net/build/images/media/wallpapers/The_man_with_the_silver_hand-en-4c6baf7c.jpg',
+          'https://www.cyberpunk.net/build/images/media/wallpapers/You_look_like_youve_seen_a_ghost-en-de96e62c.jpg',
+          'https://www.cyberpunk.net/build/images/media/wallpapers/Youre_mine-en-d061ed49.jpg',
+          'https://www.cyberpunk.net/build/images/media/wallpapers/CP77-KV-en-4d31f926.jpg',
+          'https://www.cyberpunk.net/build/images/media/wallpapers/v-logotype-en-d08705c2.jpg',
+          'https://www.cyberpunk.net/build/images/media/wallpapers/CP_Valentines_Day-en-57477223.jpg',
+          'https://www.cyberpunk.net/build/images/media/wallpapers/Outnumbered_But_Not_Outgunned-en-13e8e0a3.jpg',
+          'https://www.cyberpunk.net/build/images/media/wallpapers/Shoot_Through_Walls_V-en-7bcfc893.jpg',
+          'https://www.cyberpunk.net/build/images/media/wallpapers/The_Chakras_Off_Babe-en-a322d005.jpg',
+          'https://www.cyberpunk.net/build/images/media/wallpapers/Any_Last_Words-en-adb5ba5f.jpg',
+          'https://www.cyberpunk.net/build/images/media/wallpapers/trailer-logotype-en-d274884f.jpg',
+          'https://www.cyberpunk.net/build/images/media/wallpapers/A-mercenary-on-the-rise-en-b5afb0e3.jpg',
+          'https://www.cyberpunk.net/build/images/media/wallpapers/Braindance-experience-en-32a5e561.jpg',
+          'https://www.cyberpunk.net/build/images/media/wallpapers/Its-a-deal-en-e09e01ff.jpg',
+          'https://www.cyberpunk.net/build/images/media/wallpapers/Just-around-the-corner-en-c958c51e.jpg',
+          'https://www.cyberpunk.net/build/images/media/wallpapers/Trauma-Team-en-4b2e9a18.jpg'
         ],
         '1080p': [
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080p/Hand-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080p/Admiring_the_view-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080p/Just_another_quiet_afternoon_in_Pacifica-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080p/Lets_go_to_the_mall-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080p/Punch_it-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080p/Sweet_ride-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080p/Your_move-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080p/A_beautiful_beast-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080p/Now_arriving_at_destination-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080p/Running_the_show-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080p/The_man_with_the_silver_hand-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080p/You_look_like_youve_seen_a_ghost-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080p/Youre_mine-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080p/CP77-KV-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080p/v-logotype-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080p/CP_Valentines_Day-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080p/Outnumbered_But_Not_Outgunned-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080p/Shoot_Through_Walls_V-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080p/The_Chakras_Off_Babe-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080p/Any_Last_Words-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080p/trailer-logotype-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080p/A-mercenary-on-the-rise-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080p/Braindance-experience-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080p/Its-a-deal-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080p/Just-around-the-corner-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080p/Trauma-Team-en.jpg'
+          'https://www.cyberpunk.net/uploads/wallpapers/1080p/Metro-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080p/V-Origami-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080p/V-V2-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080p/VDay-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080p/CNY_Artwork-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080p/Hand-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080p/Admiring_the_view-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080p/Just_another_quiet_afternoon_in_Pacifica-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080p/Lets_go_to_the_mall-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080p/Punch_it-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080p/Sweet_ride-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080p/Your_move-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080p/A_beautiful_beast-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080p/Now_arriving_at_destination-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080p/Running_the_show-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080p/The_man_with_the_silver_hand-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080p/You_look_like_youve_seen_a_ghost-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080p/Youre_mine-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080p/CP77-KV-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080p/v-logotype-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080p/CP_Valentines_Day-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080p/Outnumbered_But_Not_Outgunned-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080p/Shoot_Through_Walls_V-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080p/The_Chakras_Off_Babe-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080p/Any_Last_Words-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080p/trailer-logotype-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080p/A-mercenary-on-the-rise-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080p/Braindance-experience-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080p/Its-a-deal-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080p/Just-around-the-corner-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080p/Trauma-Team-en.jpg'
+        ],
+        'desktop-res': [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        mobile: [
+          'https://www.cyberpunk.net/build/images/wallpapers/mobile/Metro-8fa738b9.jpg',
+          'https://www.cyberpunk.net/build/images/wallpapers/mobile/V-Origami-6f9bac7e.jpg',
+          'https://www.cyberpunk.net/build/images/wallpapers/mobile/V-V2-en-1c70f2e4.jpg',
+          'https://www.cyberpunk.net/build/images/wallpapers/mobile/VDay-3d1f2067.jpg',
+          'https://www.cyberpunk.net/build/images/wallpapers/mobile/CNY_Artwork-7f018746.jpg',
+          'https://www.cyberpunk.net/build/images/wallpapers/mobile/Hand-a585cef5.jpg',
+          'https://www.cyberpunk.net/build/images/wallpapers/mobile/Admiring_the_view-80c0ab4e.jpg',
+          'https://www.cyberpunk.net/build/images/wallpapers/mobile/Just_another_quiet_afternoon_in_Pacifica-f2919e83.jpg',
+          'https://www.cyberpunk.net/build/images/wallpapers/mobile/Lets_go_to_the_mall-c4bb5d56.jpg',
+          'https://www.cyberpunk.net/build/images/wallpapers/mobile/Punch_it-b69b18be.jpg',
+          'https://www.cyberpunk.net/build/images/wallpapers/mobile/Sweet_ride-e8391ccd.jpg',
+          'https://www.cyberpunk.net/build/images/wallpapers/mobile/Your_move-517a36f2.jpg',
+          'https://www.cyberpunk.net/build/images/wallpapers/mobile/A_beautiful_beast-en-a33535c7.jpg',
+          'https://www.cyberpunk.net/build/images/wallpapers/mobile/Now_arriving_at_destination-en-7079e8d1.jpg',
+          'https://www.cyberpunk.net/build/images/wallpapers/mobile/Running_the_show-en-56e8f076.jpg',
+          'https://www.cyberpunk.net/build/images/wallpapers/mobile/The_man_with_the_silver_hand-en-8605df6f.jpg',
+          'https://www.cyberpunk.net/build/images/wallpapers/mobile/You_look_like_youve_seen_a_ghost-en-14acd005.jpg',
+          'https://www.cyberpunk.net/build/images/wallpapers/mobile/Youre_mine-en-fb57672d.jpg',
+          'https://www.cyberpunk.net/build/images/wallpapers/mobile/CP77-KV-en-0500c601.jpg',
+          'https://www.cyberpunk.net/build/images/wallpapers/mobile/Ambushed-de7b8328.jpg',
+          'https://www.cyberpunk.net/build/images/wallpapers/mobile/A-mercenary-on-the-rise-99ae875c.jpg',
+          'https://www.cyberpunk.net/build/images/wallpapers/mobile/Beautiful-and-deadly-430bdec4.jpg',
+          'https://www.cyberpunk.net/build/images/wallpapers/mobile/Big-Man-With-a-Big-Gun-17955684.jpg',
+          'https://www.cyberpunk.net/build/images/wallpapers/mobile/Expendable-78962a26.jpg',
+          'https://www.cyberpunk.net/build/images/wallpapers/mobile/Its-a-deal-7d5371da.jpg',
+          'https://www.cyberpunk.net/build/images/wallpapers/mobile/Its-a-deal-2-fca884c5.jpg',
+          'https://www.cyberpunk.net/build/images/wallpapers/mobile/Just-around-the-corner-449f2db0.jpg',
+          'https://www.cyberpunk.net/build/images/wallpapers/mobile/Provoked-8a4d3285.jpg',
+          'https://www.cyberpunk.net/build/images/wallpapers/mobile/Trauma-Team-77458767.jpg',
+          'https://www.cyberpunk.net/build/images/wallpapers/mobile/You-Better-Not-Interfere-51d8eccf.jpg'
         ],
         'mobile-full': [
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080x1920/Hand.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080x1920/Admiring_the_view.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080x1920/Just_another_quiet_afternoon_in_Pacifica.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080x1920/Lets_go_to_the_mall.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080x1920/Punch_it.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080x1920/Sweet_ride.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080x1920/Your_move.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080x1920/A_beautiful_beast-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080x1920/Now_arriving_at_destination-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080x1920/Running_the_show-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080x1920/The_man_with_the_silver_hand-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080x1920/You_look_like_youve_seen_a_ghost-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080x1920/Youre_mine-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080x1920/CP77-KV-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080x1920/Ambushed.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080x1920/A-mercenary-on-the-rise.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080x1920/Beautiful-and-deadly.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080x1920/Big-Man-With-a-Big-Gun.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080x1920/Expendable.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080x1920/Its-a-deal.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080x1920/Its-a-deal-2.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080x1920/Just-around-the-corner.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080x1920/Provoked.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080x1920/Trauma-Team.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/wallpapers/1080x1920/You-Better-Not-Interfere.jpg'
+          'https://www.cyberpunk.net/uploads/wallpapers/1080x1920/Metro.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080x1920/V-Origami.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080x1920/V-V2-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080x1920/VDay.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080x1920/CNY_Artwork.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080x1920/Hand.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080x1920/Admiring_the_view.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080x1920/Just_another_quiet_afternoon_in_Pacifica.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080x1920/Lets_go_to_the_mall.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080x1920/Punch_it.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080x1920/Sweet_ride.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080x1920/Your_move.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080x1920/A_beautiful_beast-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080x1920/Now_arriving_at_destination-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080x1920/Running_the_show-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080x1920/The_man_with_the_silver_hand-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080x1920/You_look_like_youve_seen_a_ghost-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080x1920/Youre_mine-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080x1920/CP77-KV-en.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080x1920/Ambushed.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080x1920/A-mercenary-on-the-rise.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080x1920/Beautiful-and-deadly.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080x1920/Big-Man-With-a-Big-Gun.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080x1920/Expendable.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080x1920/Its-a-deal.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080x1920/Its-a-deal-2.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080x1920/Just-around-the-corner.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080x1920/Provoked.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080x1920/Trauma-Team.jpg',
+          'https://www.cyberpunk.net/uploads/wallpapers/1080x1920/You-Better-Not-Interfere.jpg'
         ]
       };
       CDPRED.arts = {
         desktop: [
-          '/build/images/media/arts/Cyberpunk2077_All_ready_to_go-RGB-en-65e2ecdc.jpg',
-          '/build/images/media/arts/Cyberpunk2077_I_make_my_own_rules-RGB-en-e7720999.jpg',
-          '/build/images/media/arts/Cyberpunk2077_Jacked_in-RGB-en-fbdb8363.jpg',
-          '/build/images/media/arts/Cyberpunk2077_Smoke_and_mirrors-RGB-en-3afd6639.jpg'
+          'https://www.cyberpunk.net/build/images/media/arts/Cyberpunk2077_All_ready_to_go-RGB-en-65e2ecdc.jpg',
+          'https://www.cyberpunk.net/build/images/media/arts/Cyberpunk2077_I_make_my_own_rules-RGB-en-e7720999.jpg',
+          'https://www.cyberpunk.net/build/images/media/arts/Cyberpunk2077_Jacked_in-RGB-en-fbdb8363.jpg',
+          'https://www.cyberpunk.net/build/images/media/arts/Cyberpunk2077_Smoke_and_mirrors-RGB-en-3afd6639.jpg'
         ],
         mobile: [
-          '/build/images/gallery/mobile/Cyberpunk2077_All_ready_to_go-RGB-ead9c4ac.jpg',
-          '/build/images/gallery/mobile/Cyberpunk2077_I_make_my_own_rules-RGB-b5639ec1.jpg',
-          '/build/images/gallery/mobile/Cyberpunk2077_Jacked_in-RGB-63d120f0.jpg',
-          '/build/images/gallery/mobile/Cyberpunk2077_Smoke_and_mirrors-RGB-d0419620.jpg'
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077_All_ready_to_go-RGB-ead9c4ac.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077_I_make_my_own_rules-RGB-b5639ec1.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077_Jacked_in-RGB-63d120f0.jpg',
+          'https://www.cyberpunk.net/build/images/gallery/mobile/Cyberpunk2077_Smoke_and_mirrors-RGB-d0419620.jpg'
         ],
         '1080p': [
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077_All_ready_to_go-RGB-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077_I_make_my_own_rules-RGB-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077_Jacked_in-RGB-en.jpg',
-          'https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/Cyberpunk2077_Smoke_and_mirrors-RGB-en.jpg'
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077_All_ready_to_go-RGB-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077_I_make_my_own_rules-RGB-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077_Jacked_in-RGB-en.jpg',
+          'https://www.cyberpunk.net/uploads/gallery/1080p/Cyberpunk2077_Smoke_and_mirrors-RGB-en.jpg'
         ]
       };</script
     ><script src="js/runtime-74eef81eb83ee14b1927.js"></script
     ><script src="js/0-5fd3f2ac59753b4e8395.js"></script
-    ><script src="js/1-65938247f7118f916b88.js"></script
-    ><script src="js/home-6218eaa1809ab1730f30.js"></script>
+    ><script src="js/1-ed0c56bf5549054ff3ae.js"></script
+    ><script src="js/home2-6b12fd916c1ee70e57e3.js"></script>
   </body>
 </html>
