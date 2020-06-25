@@ -6171,6 +6171,9 @@ a.iv-button:after {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
+.ytp-chapter-title.ytp-button {
+  width: 100%;
+}
 .ytp-chapter-title-prefix {
   padding-right: 5px;
 }
@@ -6181,10 +6184,8 @@ a.iv-button:after {
   display: none;
 }
 .ytp-chapter-container {
-  z-index: -1;
+  float: left;
   width: auto;
-  position: relative;
-  left: 0;
   font-size: 109%;
   vertical-align: top;
   padding: 0 5px 0 0;
@@ -9464,6 +9465,11 @@ a.ytp-ce-link:hover {
   .ytp-offline-slate-background {
   display: none;
 }
+.html5-video-player.ended-mode
+  .ytp-offline-slate.ytp-offline-slate-premiere-trailer
+  .ytp-offline-slate-background {
+  display: block;
+}
 .ytp-offline-slate-bar {
   position: absolute;
   display: flex;
@@ -9656,24 +9662,22 @@ a.ytp-ce-link:hover {
 .ytp-offline-slate-premiere-trailer .ytp-offline-slate-bar {
   flex-direction: column;
   align-items: flex-start;
-  top: 58px;
-  bottom: 59px;
+  top: 0;
+  bottom: 0;
   left: auto;
-  right: 12px;
-  padding: 20px;
-  width: 350px;
+  right: 0;
+  padding: 25px;
+  min-width: auto;
+  width: 300px;
   height: auto;
+  border-radius: 0;
   transition: 0.25s ease-in-out right;
   z-index: 23;
 }
 .ytp-big-mode .ytp-offline-slate-premiere-trailer .ytp-offline-slate-bar {
-  top: 89px;
-  bottom: 90px;
+  top: 20px;
+  bottom: 20px;
   right: 24px;
-}
-.ytp-autohide .ytp-offline-slate-premiere-trailer .ytp-offline-slate-bar {
-  top: 10px;
-  bottom: 10px;
 }
 .ytp-offline-slate-premiere-trailer.ytp-offline-slate-collapsed
   .ytp-offline-slate-bar {
@@ -9736,16 +9740,21 @@ a.ytp-ce-link:hover {
   margin-left: 0;
   margin-right: 0;
 }
+.ytp-offline-slate-premiere-trailer
+  .ytp-offline-slate-buttons
+  .ytp-reminder-menu {
+  bottom: auto;
+}
 .ytp-offline-slate-premiere-trailer .ytp-offline-slate-button {
-  background: #2793e6;
-  color: #000;
+  background: rgba(255, 255, 255, 0.3);
+  color: #fff;
   font-size: 14px;
   height: auto;
   padding: 4px 8px;
   text-transform: uppercase;
 }
 .ytp-offline-slate-premiere-trailer .ytp-offline-slate-button svg {
-  fill: #000;
+  fill: #fff;
 }
 .ytp-offline-slate-premiere-trailer .ytp-offline-slate-trailer-chip {
   display: block;
