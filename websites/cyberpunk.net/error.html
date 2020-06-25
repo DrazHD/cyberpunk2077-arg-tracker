@@ -49,8 +49,8 @@
             class=" spf-link  masthead-logo-renderer yt-uix-sessionlink"
             data-sessionlink
             ><span
-              title="YouTubes startsida"
               class="logo masthead-logo-renderer-logo yt-sprite"
+              title="YouTubes startsida"
             ></span
             ><span class="content-region">SE</span></a
           >
@@ -106,13 +106,13 @@
       yt.setConfig({
         SBOX_JS_URL: '\/yts\/jsbin\/www-searchbox-vflBEoYB_\/www-searchbox.js',
         SBOX_SETTINGS: {
-          REQUEST_LANGUAGE: 'sv',
           REQUEST_DOMAIN: 'se',
-          HAS_ON_SCREEN_KEYBOARD: true
+          HAS_ON_SCREEN_KEYBOARD: true,
+          REQUEST_LANGUAGE: 'sv'
         },
         SBOX_LABELS: {
-          SUGGESTION_DISMISS_LABEL: 'Ta bort',
-          SUGGESTION_DISMISSED_LABEL: 'Förslaget har tagits bort'
+          SUGGESTION_DISMISSED_LABEL: 'Förslaget har tagits bort',
+          SUGGESTION_DISMISS_LABEL: 'Ta bort'
         }
       });
       yt.www.notfound.init();
