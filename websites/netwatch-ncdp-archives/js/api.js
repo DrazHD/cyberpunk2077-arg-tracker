@@ -9,7 +9,6 @@
     function(f) {
       (cfg['fns'] = cfg['fns'] || []).push(f);
     };
-  (cfg['enterprise'] = cfg['enterprise'] || []).push(false);
   (cfg['render'] = cfg['render'] || []).push('onload');
   w['__google_recaptcha_client'] = true;
   var d = document,
@@ -17,7 +16,7 @@
   po.type = 'text/javascript';
   po.async = true;
   po.src =
-    'https://www.gstatic.com/recaptcha/releases/eQmzkx3d5dtuXlLOA4pEID3I/recaptcha__en.js';
+    'https://www.gstatic.com/recaptcha/releases/NMoy4HgGiLr5NAQaEQa2ho8X/recaptcha__en.js';
   var e = d.querySelector('script[nonce]'),
     n = e && (e['nonce'] || e.getAttribute('nonce'));
   if (n) {
