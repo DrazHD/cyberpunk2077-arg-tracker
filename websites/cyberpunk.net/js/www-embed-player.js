@@ -1022,7 +1022,15 @@
       this.g = c;
     }
   }
-  var Xa = Array.prototype.indexOf
+  function Xa(a) {
+    var b = !1,
+      c;
+    return function() {
+      b || ((c = a()), (b = !0));
+      return c;
+    };
+  }
+  var Ya = Array.prototype.indexOf
       ? function(a, b) {
           return Array.prototype.indexOf.call(a, b, void 0);
         }
@@ -1048,7 +1056,7 @@
           )
             f in e && b.call(c, e[f], f, a);
         },
-    Ya = Array.prototype.filter
+    Za = Array.prototype.filter
       ? function(a, b) {
           return Array.prototype.filter.call(a, b, void 0);
         }
@@ -1068,7 +1076,7 @@
             }
           return d;
         },
-    Za = Array.prototype.map
+    $a = Array.prototype.map
       ? function(a, b) {
           return Array.prototype.map.call(a, b, void 0);
         }
@@ -1084,7 +1092,7 @@
             f in e && (d[f] = b.call(void 0, e[f], f, a));
           return d;
         },
-    $a = Array.prototype.reduce
+    ab = Array.prototype.reduce
       ? function(a, b, c) {
           return Array.prototype.reduce.call(a, b, c);
         }
@@ -1095,7 +1103,7 @@
           });
           return d;
         };
-  function ab(a, b) {
+  function bb(a, b) {
     a: {
       var c = a.length;
       for (var d = 'string' === typeof a ? a.split('') : a, e = 0; e < c; e++)
@@ -1107,11 +1115,11 @@
     }
     return 0 > c ? null : 'string' === typeof a ? a.charAt(c) : a[c];
   }
-  function bb(a, b) {
-    var c = Xa(a, b);
+  function cb(a, b) {
+    var c = Ya(a, b);
     0 <= c && Array.prototype.splice.call(a, c, 1);
   }
-  function cb(a) {
+  function db(a) {
     var b = a.length;
     if (0 < b) {
       for (var c = Array(b), d = 0; d < b; d++) c[d] = a[d];
@@ -1119,7 +1127,7 @@
     }
     return [];
   }
-  function db(a, b) {
+  function eb(a, b) {
     for (var c = 1; c < arguments.length; c++) {
       var d = arguments[c];
       if (Ka(d)) {
@@ -1129,14 +1137,6 @@
         for (var g = 0; g < f; g++) a[e + g] = d[g];
       } else a.push(d);
     }
-  }
-  function eb(a) {
-    var b = !1,
-      c;
-    return function() {
-      b || ((c = a()), (b = !0));
-      return c;
-    };
   }
   function fb(a, b) {
     for (var c in a) b.call(void 0, a[c], c, a);
@@ -1715,7 +1715,7 @@
     }
     for (var e = 2; e < c.length; e++) {
       var f = c[e];
-      !Ka(f) || (Ma(f) && 0 < f.nodeType) ? d(f) : G(Jc(f) ? cb(f) : f, d);
+      !Ka(f) || (Ma(f) && 0 < f.nodeType) ? d(f) : G(Jc(f) ? db(f) : f, d);
     }
   }
   function Hc(a, b) {
@@ -1771,7 +1771,7 @@
       qb: 'allow-top-navigation',
       rb: 'allow-top-navigation-by-user-activation'
     },
-    Qc = eb(function() {
+    Qc = Xa(function() {
       return Pc();
     });
   function Rc() {
@@ -2035,7 +2035,7 @@
   };
   function cd(a) {
     -1 == a.f &&
-      (a.f = $a(
+      (a.f = ab(
         a.g,
         function(b, c, d) {
           return c ? b + Math.pow(2, d) : b;
@@ -2318,7 +2318,7 @@
     if (a.classList) var c = a.classList.contains(b);
     else
       (c = a.classList ? a.classList : vd(a).match(/\S+/g) || []),
-        (c = 0 <= Xa(c, b));
+        (c = 0 <= Ya(c, b));
     return c;
   }
   function yd() {
@@ -2328,7 +2328,7 @@
       : xd(a, 'inverted-hdpi') &&
         wd(
           a,
-          Ya(a.classList ? a.classList : vd(a).match(/\S+/g) || [], function(
+          Za(a.classList ? a.classList : vd(a).match(/\S+/g) || [], function(
             b
           ) {
             return 'inverted-hdpi' != b;
@@ -2380,7 +2380,7 @@
     }
   }
   function Dd(a) {
-    if (Ka(a)) return cb(a);
+    if (Ka(a)) return db(a);
     a = Bd(a);
     var b = [];
     Cd(a, function(c) {
@@ -2826,7 +2826,7 @@
   function he(a, b, c, d) {
     if ((b = a.h[b])) {
       var e = a.f;
-      (b = ab(b, function(f) {
+      (b = bb(b, function(f) {
         return e[f + 1] == c && e[f + 2] == d;
       })) && a.P(b);
     }
@@ -2837,7 +2837,7 @@
       var c = this.h[b];
       0 != this.j
         ? (this.i.push(a), (this.f[a + 1] = Ha))
-        : (c && bb(c, a),
+        : (c && cb(c, a),
           delete this.f[a],
           delete this.f[a + 1],
           delete this.f[a + 2]);
@@ -3215,7 +3215,7 @@
             g = decodeURIComponent((e[1] || '').replace(/\+/g, ' '));
           f in b
             ? Array.isArray(b[f])
-              ? db(b[f], g)
+              ? eb(b[f], g)
               : (b[f] = [b[f], g])
             : (b[f] = g);
         } catch (k) {
@@ -3495,7 +3495,7 @@
   function bf(a, b) {
     var c = S('CORS_HEADER_WHITELIST') || {},
       d = J(K(3, a));
-    return d ? ((c = c[d]) ? 0 <= Xa(c, b) : !1) : !0;
+    return d ? ((c = c[d]) ? 0 <= Ya(c, b) : !1) : !0;
   }
   function df(a, b) {
     if (window.fetch && 'XML' != b.format) {
@@ -3908,7 +3908,7 @@
       return !!e.length && e[0] == a && e[1] == b && e[2] == c && (f || g);
     });
   }
-  var zf = eb(function() {
+  var zf = Xa(function() {
     var a = !1;
     try {
       var b = Object.defineProperty({}, 'capture', {
@@ -5806,7 +5806,7 @@
         g = J(K(3, window.location.href));
       g && f.push(g);
       g = J(K(3, d));
-      if (0 <= Xa(f, g) || (!g && 0 == d.lastIndexOf('/', 0)))
+      if (0 <= Ya(f, g) || (!g && 0 == d.lastIndexOf('/', 0)))
         if (
           (U('autoescape_tempdata_url') &&
             ((f = document.createElement('a')), Xb(f, d), (d = f.href)),
@@ -5915,7 +5915,7 @@
                       'yt.pubsub2.Data.deserialize(): serializedData version is incompatible.'
                     );
                   try {
-                    f = Reflect.construct(h, cb(k.args));
+                    f = Reflect.construct(h, db(k.args));
                   } catch (q) {
                     throw ((q.message =
                       'yt.pubsub2.Data.deserialize(): ' + q.message),
@@ -5978,7 +5978,7 @@
     b = {
       csn: a,
       parentVe: b.getAsJson(),
-      childVes: Za(c, function(f) {
+      childVes: $a(c, function(f) {
         return f.getAsJson();
       })
     };
@@ -6267,7 +6267,7 @@
     var c = this,
       d = Ti(this, b);
     if (d) {
-      if (!(0 <= Xa(this.Aa, a) || this.j[a])) {
+      if (!(0 <= Ya(this.Aa, a) || this.j[a])) {
         var e = cj(this, a);
         this.G && this.G(a, e);
       }
@@ -6679,7 +6679,7 @@
               break;
             case 'command':
               d.j &&
-                (!d.l || 0 <= Xa(d.l, f.func)) &&
+                (!d.l || 0 <= Ya(d.l, f.func)) &&
                 d.j(f.func, f.args, e.origin);
           }
       }
@@ -6810,7 +6810,7 @@
   n.ia = function() {
     if (!this.f) return null;
     var a = this.f.getApiInterface();
-    bb(a, 'getVideoData');
+    cb(a, 'getVideoData');
     for (var b = { apiInterface: a }, c = 0, d = a.length; c < d; c++) {
       var e = a[c];
       if (0 === e.search('get') || 0 === e.search('is')) {
@@ -7440,7 +7440,7 @@
         }
         if (a in pk) {
           b = pk[a];
-          0 <= Xa(qk, b) && (d = !!d);
+          0 <= Ya(qk, b) && (d = !!d);
           a in sk && 'string' === typeof d && (d = sk[a] + d.toUpperCase());
           a = d;
           d = b.split('.');
@@ -7453,7 +7453,7 @@
             'requestIds' === b ? [{ id: a, endpoint: f }] : a;
           f = Qj({}, e);
         } else
-          0 <= Xa(tk, a) || vh(new ph('Unknown label logged with GEL CSI', a)),
+          0 <= Ya(tk, a) || vh(new ph('Unknown label logged with GEL CSI', a)),
             (f = void 0);
         f &&
           uk(c) &&
