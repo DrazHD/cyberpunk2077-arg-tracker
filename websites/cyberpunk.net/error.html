@@ -49,8 +49,8 @@
             class=" spf-link  masthead-logo-renderer yt-uix-sessionlink"
             data-sessionlink
             ><span
-              title="YouTubes startsida"
               class="logo masthead-logo-renderer-logo yt-sprite"
+              title="YouTubes startsida"
             ></span
             ><span class="content-region">SE</span></a
           >
@@ -66,9 +66,9 @@
               class="yt-uix-button yt-uix-button-size-default yt-uix-button-default search-btn-component search-button"
               type="submit"
               onclick="if (document.getElementById(&#39;masthead-search-term&#39;).value == &#39;&#39;) return false; document.getElementById(&#39;masthead-search&#39;).submit(); return false;;return true;"
+              id="search-btn"
               dir="ltr"
               tabindex="2"
-              id="search-btn"
             >
               <span class="yt-uix-button-content">Sök</span>
             </button>
@@ -106,13 +106,13 @@
       yt.setConfig({
         SBOX_JS_URL: '\/yts\/jsbin\/www-searchbox-vflBEoYB_\/www-searchbox.js',
         SBOX_SETTINGS: {
-          HAS_ON_SCREEN_KEYBOARD: true,
+          REQUEST_DOMAIN: 'se',
           REQUEST_LANGUAGE: 'sv',
-          REQUEST_DOMAIN: 'se'
+          HAS_ON_SCREEN_KEYBOARD: true
         },
         SBOX_LABELS: {
-          SUGGESTION_DISMISS_LABEL: 'Ta bort',
-          SUGGESTION_DISMISSED_LABEL: 'Förslaget har tagits bort'
+          SUGGESTION_DISMISSED_LABEL: 'Förslaget har tagits bort',
+          SUGGESTION_DISMISS_LABEL: 'Ta bort'
         }
       });
       yt.www.notfound.init();
