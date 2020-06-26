@@ -67,8 +67,8 @@
               type="submit"
               onclick="if (document.getElementById(&#39;masthead-search-term&#39;).value == &#39;&#39;) return false; document.getElementById(&#39;masthead-search&#39;).submit(); return false;;return true;"
               tabindex="2"
-              dir="ltr"
               id="search-btn"
+              dir="ltr"
             >
               <span class="yt-uix-button-content">Sök</span>
             </button>
@@ -106,13 +106,13 @@
       yt.setConfig({
         SBOX_JS_URL: '\/yts\/jsbin\/www-searchbox-vflthGnUu\/www-searchbox.js',
         SBOX_SETTINGS: {
+          REQUEST_LANGUAGE: 'sv',
           REQUEST_DOMAIN: 'se',
-          HAS_ON_SCREEN_KEYBOARD: true,
-          REQUEST_LANGUAGE: 'sv'
+          HAS_ON_SCREEN_KEYBOARD: true
         },
         SBOX_LABELS: {
-          SUGGESTION_DISMISSED_LABEL: 'Förslaget har tagits bort',
-          SUGGESTION_DISMISS_LABEL: 'Ta bort'
+          SUGGESTION_DISMISS_LABEL: 'Ta bort',
+          SUGGESTION_DISMISSED_LABEL: 'Förslaget har tagits bort'
         }
       });
       yt.www.notfound.init();
